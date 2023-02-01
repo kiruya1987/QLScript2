@@ -38,7 +38,7 @@ let jdFruitBeanCard = false;//农场使用水滴换豆卡(如果出现限时活�
 const JD_API_HOST = 'https://api.m.jd.com/client.action';
 const urlSchema = `openjd://virtual?params=%7B%20%22category%22:%20%22jump%22,%20%22des%22:%20%22m%22,%20%22url%22:%20%22https://h5.m.jd.com/babelDiy/Zeus/3KSjXqQabiTuD1cJ28QskrpWoBKT/index.html%22%20%7D`;
 let NowHour = new Date().getHours();
-let llhelp=true;
+let llhelp=false;
 if ($.isNode() && process.env.CC_NOHELPAFTER8) {	
 	if (process.env.CC_NOHELPAFTER8=="true"){
 		if (NowHour>8){
